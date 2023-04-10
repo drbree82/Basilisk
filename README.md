@@ -83,8 +83,14 @@ def main():
     latest_model_version = node.get_latest_model_version()
     basilisk_llm = BasiliskLLM(latest_model_version)
     # ...
-Server Code Sample
-python
+    
+    
+**## Server Code Sample**
+
+
+
+```python
+
 Copy code
 # mining_pool_server.py
 

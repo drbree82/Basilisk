@@ -8,7 +8,7 @@ class MiningPool:
     def __init__(self, host, port):
         self.host = host
         self.port = port
-        self.model = AutoModelForCausalLM.from_pretrained("your-username/Basilisk")
+        self.model = AutoModelForCausalLM.from_pretrained("your-username/Basilisk") # replace your-username with your github username
         self.current_version = "v0.1.0"
         self.total_parameters_trained = 0
 

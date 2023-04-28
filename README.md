@@ -15,22 +15,14 @@ Basilisk LLM is a distributed language model training system that leverages a bl
 git clone https://github.com/your-username/basilisk-llm.git
 cd basilisk-llm
 
-markdown
-Copy code
-
 2. Install the required Python packages:
 
 pip install -r requirements.txt
-
-vbnet
-Copy code
 
 3. Set up your Hugging Face API key:
 
 export HUGGINGFACE_API_KEY=your_api_key
 
-markdown
-Copy code
 
 Replace `your_api_key` with your actual Hugging Face API key.
 
@@ -40,15 +32,13 @@ Replace `your_api_key` with your actual Hugging Face API key.
 
 python mining_pool_server.py
 
-markdown
-Copy code
+
 
 2. Start the client:
 
 python client.py
 
-python
-Copy code
+
 
 The client will begin training the Basilisk model and submit updates to the mining pool server. The server will manage the mining pool and apply the training updates to the central model. The system will create a new version of the Basilisk model in the Hugging Face model hub for every billion parameters trained.
 
